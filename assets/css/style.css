@@ -946,8 +946,6 @@ section {
   margin-top: 40px;
 }
 
-
-
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
   background: #0563bb;
   color: #fff;
@@ -1190,7 +1188,6 @@ section {
   font-size: 13px;
 }
 
-
 .texto{
   padding: 25px;
   padding-bottom: 0px;
@@ -1198,22 +1195,20 @@ section {
   left: auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.middle{
+	padding: 0px;
+	padding-bottom: 0px;
+	top: auto;
+	left: auto;
+	text-align: middle;
+	text-indent: middle;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
 
 .btn{
   position: relative;
-  
   color: black;
   font-size: 16px;
   font-family: "montserrat";
@@ -1225,6 +1220,7 @@ section {
   overflow: hidden;
   transition: 1s all ease;
 }
+
 .btn::before{
   background: rgb(221, 221, 255);
   content: "";
