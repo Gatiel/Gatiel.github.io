@@ -188,6 +188,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #45505b;
 }
 
+.caixa{
+	width: 340px;
+	height : 500px;
+}
+
 @media (min-width: 992px) {
   .nav-menu a {
     width: 56px;
