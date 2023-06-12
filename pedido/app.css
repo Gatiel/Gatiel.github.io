@@ -6,7 +6,7 @@ body {
 
 body.yes {
     background-color: #ff8dc7;
-    background-image: url('aaa');
+    background-image: url('./amor1.gif');
     background-size: cover;
 }
 
