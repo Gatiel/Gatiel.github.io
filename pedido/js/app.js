@@ -7,7 +7,7 @@ const $btnYes = document.querySelector('.js-yes'),
 let counter = 0
 
 $btnYes.addEventListener('mouseover', (e) => {
-    e.target.innerHTML = 'UM CLICK'
+    e.target.innerHTML = 'UM CLICK 🥺'
 })
 
 $btnYes.addEventListener('click', () => {
