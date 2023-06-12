@@ -1,57 +1,34 @@
-<html>
-  <head>
-    <title>Oiiii ❤️ </title>
-      <style>
-        p {
-        text-align: center;
-        font-size: 32px;
-        font-family: Candara, Oswald;
-          }
-        img {
-        display: block;
-        margin:  auto;
-        width: 25%;
-          }
-      </style>
-  </head>
-  <body>
-    <p>Vamos a um encontrim maroto? </p>
-    <img src="https://media.tenor.com/PLeCIPCn39cAAAAC/gato-por-favor.gif">
-  </body>
-  <title>Botões</title>
-    <style>
-      #botao1 {
-      position: fixed;
-      top: 70%;
-      left: 55%;
-      transform: translate(-50%, -50%);
-      }
-      #botao2 {
-      position: absolute;
-      left: 39%;
-      top: 68%;
-      }
-    </style>
-  </head>
-  <body>
-    <button id="botao1">VAMOOOS ❤️❤️❤️ </button>
-    <button id="botao2">NÃO</button>
-    <script>
-    const button2 = document.getElementById('botao2');
-    let left = 40;
-    button2.addEventListener('mouseover', function() {
-      if(left == 40){
-        left = 44;
-      }else{
-        left = 40;
-      }
-      this.style.left = left + '%';
-    });
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oiiii ❤️</title>
+  <link rel="stylesheet" href="./pedido/app.css">
+</head>
+<body>
+    <div class="confirm js-confirm">
+      <div class="confirm__container">
+        <p class="title">Vamos um encontrim maroto?? <span class="heart">
+          <div class="confirm__actions">
+            <button class="btn-yes js-yes">SIIIMMM ❤️❤️ </button>
+            <button class="btn-no js-no">NÃO</button>
+          </div>
+        </span></p>
+      </div>
+    </div>
+    
 
-    </script>
-      <script>document.getElementById('botao1').addEventListener('click', function() {
-      alert('EBAAAA 😍❤️');
-      });
-    </script>
-  </body>
+    <div class="dialog js-dialog">
+      <div class="dialog__container">
+        <p>Sexta 19hrs<span class="hearth">
+          <p>
+            eu passo na sua casa? 🤗
+          </p>
+        </span></p>
+      </div>
+    </div>
+    <script src="./pedido/js/app.js"></script>
+</body>
 </html>
